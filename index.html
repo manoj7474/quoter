@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=mega.io">
     <script src="https://kit.fontawesome.com/d10a484986.js" crossorigin="anonymous"></script>
-    <title>template</title>
+    <title>Quoter</title>
 </head>
 <body>
     <div class="quote-container" id="quote-container">
         <!-- quote -->
       <div class="quote-text">
-        <i class="fas fa-quote-left"></i>
-        <span id="quote">loser is a winner, winner is a loser</span>
+        <i class="quote-icon fas fa-quote-left"></i>
+        <span id="quote"></span>
+        <i class="quote-icon fa-solid fa-quote-right"></i>
       </div>
       <!-- author -->
       <div class="quote-author">
-        <span id="author">manoj</span>
+        <span id="author"></span>
       </div>
       <!-- buttons -->
       <div class="button-container">
@@ -30,6 +31,8 @@
       </div>
 
     </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
 
    <!--script-->
    <script src="app.js"></script>
